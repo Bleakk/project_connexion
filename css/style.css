@@ -289,8 +289,69 @@ h1,h2,h3,h4,h5,p,ul{
 .aside-block__categories{
     height: 350px;
 }
+
+/* contact */
+.contacts{
+    height: 730px;
+    background-color: rgb(87, 87, 209);
+}
+.contacts-container{
+    width: 1140px;
+    margin-left: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+.contact-content{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.contact-forms{
+    width: 945px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    height: 60%;
+}
+.forms{
+    width: 455px;
+    height: 45px;
+}
+.forms-left{
+    margin-right: 25px;
+}
+.big-form{
+    display: flex;
+    justify-items: center;
+    width: 100%;
+    height: 120px;
+}
+.contact-button__container{
+    width: 100%;
+    display: flex;
+    justify-content:  flex-end;
+}
+.button-contact{
+    width: 200px;
+    height: 55px;
+}
+.button-contact,
+.forms,
+.big-form{
+    font-size: 20px;
+}
 /* footer */
 .footer{
-    height: 100px;
-    background-color: #0c0808;
+    height: 370px;
+    background-color: #13132a;
+}
+
+/* super-footer */
+.super-footer{
+    height: 60px;
+    background-color: black;
 }
