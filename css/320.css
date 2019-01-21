@@ -1,0 +1,15 @@
+/* @media{
+    .toggle{
+        display: flex; 
+        justify-content: flex-end;
+        width: 25%;
+    }
+    .navigation__list{
+        display: none;
+    }
+    .search__header{
+        display: none;
+
+    }
+
+} */
